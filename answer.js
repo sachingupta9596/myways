@@ -9,16 +9,14 @@ function fizzbuzz(number){
     if(!number){
         return;
     }
-    else{
-        
-    }
+  
     
     for(let c of number){
         sum+=parseInt(c);
     }
  
     
-    for(let i = 1 ; i<sum;i++){
+    for(let i = 1 ; i<=sum;i++){
          if(i%4==0&&i%5==0){
            
             str+="FizzBuzz";
